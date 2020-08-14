@@ -3,6 +3,12 @@ package com.example.rabbitmq.hello;
 import com.example.rabbitmq.utils.ConnectUtil;
 import com.rabbitmq.client.Channel;
 
+/**
+ * Hello模式
+ * 1：通过工厂进行与rabbitmq的连接
+ * 2：连接通道
+ * 3：生产消息
+ */
 public class Provide {
 
     public static void main(String[] args) throws Exception {

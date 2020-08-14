@@ -8,6 +8,10 @@ import com.rabbitmq.client.Envelope;
 
 import java.io.IOException;
 
+/**
+ * 1：通过工厂进行与rabbitmq的连接
+ * 2：消费消息
+ */
 public class Consumer {
 
     public static void main(String[] args) throws Exception {
